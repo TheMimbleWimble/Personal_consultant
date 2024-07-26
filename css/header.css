@@ -1,0 +1,93 @@
+.header {
+    background-image: url("data:image/svg+xml,%3Csvg id='header' width='1271' height='830' viewBox='0 0 1271 830' xmlns='http://www.w3.org/2000/svg'%3E%3Crect x='-522' y='240.297' width='1676.59' height='680.403' transform='rotate(-30 -522 240.297)' fill='%234BB66F'/%3E%3C/svg%3E");
+    background-size: 1500px;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-position-y: top;
+    position: relative;
+}
+
+.header_logo{
+    padding-top: 34px;
+    width: 288px;
+    color: white;
+    margin-bottom: 103px;
+}
+
+.header_title-container{
+    text-align: left;
+    background: url('../img/pngwing.com\ 1.svg') bottom/737px no-repeat;
+    background-position: right;
+    background-size: contain;
+    min-height: 600px;
+    position: relative;
+}
+
+.header_title{
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 58px;
+    display: flex;
+    flex-direction: column;
+}
+
+.main_button{
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 39px;
+    background-color: #F0D90A;
+    background-size: 552px;
+    padding: 40px 36px;
+    margin-left: 100px;
+    position: absolute;
+    top: 369px;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+.header_container{
+    max-width: calc(1282px+var(--padding-container)*2);
+}
+
+.header_title-container2{
+    text-align: left;
+    background: url('../img/office.png') no-repeat;
+    background-position: right;
+    background-size: contain;
+    min-height: 700px;
+    position: relative;
+}
+
+.header_title2{
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 58px;
+    display: flex;
+    flex-direction: column;
+    background-color: #F0D90A;
+    background-size: 552px;
+    padding: 40px 36px;
+    position: absolute;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+.header_title-container3{
+    text-align: left;
+    background: url('../img/office_people.png') bottom/702px no-repeat;
+    background-position: right;
+    background-size: contain;
+    min-height: 700px;
+    position: relative;
+}
+
+.header_title3{
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 58px;
+    display: flex;
+    flex-direction: column;
+    background-color: #F0D90A;
+    background-size: 552px;
+    padding: 40px 36px;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    position: absolute;
+}

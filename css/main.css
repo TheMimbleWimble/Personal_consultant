@@ -1,0 +1,357 @@
+.slogan {
+    position: static;
+}
+
+.slogan_heading {
+    height: 39px;
+    margin-bottom: 7px;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 39px;
+}
+
+.slogan_text {
+    column-gap: 118px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 30px;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(2, 620px);
+    justify-content: center;
+    justify-items: center;
+    column-gap: 40px;
+    row-gap: 46px;
+    margin: 0 auto;
+    position: static;
+    margin-top: 74px;
+}
+
+.description{
+    box-shadow: 0px 6px 5px rgba(0, 0, 0, 0.1);
+    background-color: #F0D90A;
+    width: 620px;
+    height: 214px;
+    display: inline;
+    flex-direction: row;
+    position: relative;
+    padding-left: 44px;
+    padding-top: 70px;
+}
+
+.description_heading{
+    font-weight: 600;
+    font-size: 36px;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    padding-bottom: 9px;
+}
+
+.description_text {
+    font-weight: 500;
+    font-size: 24px;
+    display: flex;
+    flex-wrap: wrap-reverse;
+}
+
+.description_image{
+    display: block;
+    position: absolute;
+    width: 88px;
+    height: 88px;
+    object-fit: cover;
+    mix-blend-mode:multiply;
+    position: absolute;
+    right: 44px;
+}
+
+.news{
+    margin-top: 62px;
+    height: 58px;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 58px;
+    text-align: center;
+}
+
+.news_box {
+    display: grid;
+    grid-template-columns: repeat(3, 400px);
+    position: static;
+    margin: auto;
+    max-width: 1280px;
+    width: 100%;
+    column-gap: 40px;
+    row-gap: 14px;
+}
+
+.news_image {
+    margin-top: 26px;
+    display: inline;
+    flex-direction: row;
+    position: relative;
+    border: none;
+    mix-blend-mode:multiply;
+}
+
+.client {
+    margin-top: 660px;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 58px;
+    text-align: center;
+}
+
+.client_group {
+    display: grid;
+    grid-template-columns: repeat(3, 400px);
+    position: static;
+    margin: auto;
+    justify-content: center;
+    justify-items: center;
+    max-width: 1280px;
+    column-gap: 40px;
+}
+
+.client_image {
+    width: 400px;
+    margin-top: 31px;
+    display: inline;
+    flex-direction: row;
+    position: relative;
+    border: none;
+    mix-blend-mode:multiply;
+}
+
+.footer {
+    margin-top: 90px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-items: center;
+    max-width: 100%;
+    column-gap: 88px;
+}
+
+.footer_element_vk {
+    display: block;
+    width: 126px;
+}
+
+.footer_element_phone {
+    padding-top: 71px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    display: block;
+}
+
+.footer_element_email {
+    padding-top: 71px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    display: block;
+}
+
+.footer_element_logo {
+    display: block;
+    width: 180px;
+}
+
+.office_container {
+    margin-top: 55px;
+    display: grid;
+    grid-row-gap: 24px;
+    margin-bottom: 78px;
+}
+
+.office_heading {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 58px;
+    text-align: center;
+}
+
+.office_text1 {
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+    text-align: center;
+}
+
+.office_text2 {
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+    text-align: center;
+}
+
+.inform_container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(230px, 320px));
+    max-width: 100%;
+    justify-items: center;
+    column-gap: 25px;
+    row-gap: 30px;
+    margin-left: 170px;
+}
+
+.inform_img {
+    position: relative;
+    height: 73px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.inform_title {
+    position: relative;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 39px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.inform_text {
+    position: relative;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+}
+
+.work_title {
+    margin-left: 233px;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 39px;
+    margin-top: 40px;
+    background-color: #F0D90A;
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 30px 0px 30px 30px;
+    width: 847px;
+}
+
+.work_days {
+    display: flex;
+    flex-direction: column;
+    margin-left: 233px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    row-gap: 30px;
+    background-color: #F0D90A;
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 0px 0px 30px 30px;
+    width: 847px;
+}
+
+.work_hour {
+    margin-top: -370px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 775px;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+    row-gap: 28px;
+}
+
+.QR_img {
+    float: right;
+    width: 317px;
+    margin-right: 250px;
+    margin-top: -430px;
+}
+
+.QR_text {
+    float: right;
+    margin-right: 270px;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 39px;
+    text-align: right;
+    margin-top: -100px;
+}
+
+.map_img {
+    margin-top: 70px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.title_text {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 58px;
+    text-align: center;
+    margin-top: 41px;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(2, 620px);
+    justify-content: center;
+    justify-items: center;
+    column-gap: 40px;
+    row-gap: 46px;
+    margin: 0 auto;
+    position: static;
+    margin-top: 41px;
+}
+
+.description{
+    box-shadow: 0px 6px 5px rgba(0, 0, 0, 0.1);
+    background-color: #F0D90A;
+    width: 620px;
+    height: 214px;
+    display: inline;
+    flex-direction: row;
+    position: relative;
+    padding-left: 44px;
+    padding-top: 70px;
+}
+
+.description_heading{
+    font-weight: 600;
+    font-size: 36px;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    padding-bottom: 9px;
+}
+
+.description_text {
+    font-weight: 500;
+    font-size: 24px;
+    display: flex;
+    flex-wrap: wrap-reverse;
+}
+
+.description_image{
+    display: block;
+    position: absolute;
+    width: 88px;
+    height: 88px;
+    object-fit: cover;
+    mix-blend-mode:multiply;
+    position: absolute;
+    right: 44px;
+}
+
+.close_text {
+    margin-top: 41px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+}
